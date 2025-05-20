@@ -1,1 +1,107 @@
-# jennyyu.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Web Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 0.3rem;
+        }
+
+        .bio {
+            max-width: 600px;
+            margin: 1rem auto;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .projects {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .projects h2 {
+            border-bottom: 2px solid #444;
+            padding-bottom: 0.5rem;
+        }
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project-list li {
+            background-color: #1e1e1e;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .project-list li:hover {
+            background-color: #2a2a2a;
+        }
+
+        .project-list a {
+            color: #4fc3f7;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | HTML • CSS • JavaScript</p>
+    </header>
+
+    <div class="bio">
+        <p>Hello! I'm a web developer who loves building responsive, interactive websites. Below are a few of the projects I've worked on.</p>
+    </div>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+        <ul class="project-list">
+            <li>
+                <a href="https://yourusername.github.io/project1" target="_blank">Cat Gallery Website</a>
+                <p>A simple responsive HTML/CSS gallery for cat images.</p>
+            </li>
+            <li>
+                <a href="https://yourusername.github.io/project2" target="_blank">To-Do List App</a>
+                <p>A JavaScript-powered task tracker with local storage.</p>
+            </li>
+            <li>
+                <a href="https://yourusername.github.io/project3" target="_blank">Weather Dashboard</a>
+                <p>Displays current weather using a public API and updates dynamically.</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2025 Your Name · <a href="mailto:you@example.com">you@example.com</a>
+    </footer>
+</body>
+</html>
