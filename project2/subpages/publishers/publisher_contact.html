@@ -3,35 +3,36 @@
     <head>
         <title>Contact Us</title>
 
-        <link rel="stylesheet" href="../css/contact.css"> <!-- style specific to the contact page -->
-        <link rel="stylesheet" href="../css/page_format.css"> <!-- General format for all pages -->
+        <link rel="stylesheet" href="../../css/contact.css"> <!-- style specific to the contact page -->
+        <link rel="stylesheet" href="../../css/page_format.css"> <!-- General format for all pages -->
 
-        <script src="../js/contact.js" defer></script> <!-- javascript -->
-        <script src="../js/mousetrail.js" defer></script> <!-- mousetrail -->
+        <script src="../../js/contact.js" defer></script> <!-- javascript -->
+        <script src="../../js/mousetrail.js" defer></script> <!-- mousetrail -->
     </head>
 
     <body>
         <nav class="navbar">
             <div class="navdiv">
-                <div class="navname"><a class="navname" href="../index.html">Magical Library</a></div>
+                <div class="navname"><a class="navname" href="publisher_home.html">Magical Library</a></div>
                 
                 <ul class="navul">
-                    <li class="navli"><a href="show_books.html">See books</a></li>
-                    <li class="navli"><a href="../index.html">Home</a></li>
-                    <li class="navli"><a href="login.html">Log in</a></li>
-                    <li class="navli"><a href="signup.html">Sign up</a></li>
+                    <li class="navli"><a href="publisher_home.html">Home</a></li>
+                    <li class="navli"><a href="publisher_books.html">See books</a></li>
+                    <li class="navli"><a href="approve_books.html">Approve books</a></li>
+                    <li class="navli"><a href="edit_library.html">Edit library</a></li>
+                    <li class="navli"><a href="../logout.html" class="logout-button">Logout</a></li>
                 </ul>
             </div>
         </nav>
 
         <header>
-            <img src="../images/library.jpg" alt="Image of a library" class="header-image">
+            <img src="../../images/publisher.avif" alt="Image of a library" class="header-image">
         </header>
 
         <h2 class="page-label">Contact Us</h2>
 
         <section class="contact-form">
-            <form method="POST" action="/contact_action">
+            <form method="POST" action="/publisher_contact_action">
                 <div class="fields">
                     <p>
                         <label>Name: </label>
@@ -46,7 +47,7 @@
                     <p>
                         <label>Message: </label>
                         <textarea id="message" name="message" rows="6" cols="50" placeholder="Enter your message"
-                        aria-label="email-message entry box"autocomplete="off" required></textarea>
+                        aria-label="message-message entry box" autocomplete="off" required></textarea>
                     </p>
     
                     <button class="submit-button" type="submit">Send message</button>
@@ -59,7 +60,7 @@
             <p>This website is a place of magic and wonder for all walks of life</p>
     
             <div class="footer-links">
-                <a href="contact.html">Contact Us</a> |
+                <a href="publisher_contact.html">Contact Us</a> |
                 Email: <a href="filler for now">magiclibrary@gmail.com</a>
             </div>
     

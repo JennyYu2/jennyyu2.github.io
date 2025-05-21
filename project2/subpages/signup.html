@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact Us</title>
+        <title>Sign Up</title>
 
-        <link rel="stylesheet" href="../css/contact.css"> <!-- style specific to the contact page -->
+        <link rel="stylesheet" href="../css/signup.css"> <!-- style specific to the signup page -->
         <link rel="stylesheet" href="../css/page_format.css"> <!-- General format for all pages -->
 
-        <script src="../js/contact.js" defer></script> <!-- javascript -->
+        <script src="../js/signup.js" defer></script> <!-- javascript -->
         <script src="../js/mousetrail.js" defer></script> <!-- mousetrail -->
+
     </head>
 
     <body>
@@ -19,7 +20,7 @@
                     <li class="navli"><a href="show_books.html">See books</a></li>
                     <li class="navli"><a href="../index.html">Home</a></li>
                     <li class="navli"><a href="login.html">Log in</a></li>
-                    <li class="navli"><a href="signup.html">Sign up</a></li>
+                    <li class="navli"><a href="contact.html">Contact us</a></li>
                 </ul>
             </div>
         </nav>
@@ -28,10 +29,10 @@
             <img src="../images/library.jpg" alt="Image of a library" class="header-image">
         </header>
 
-        <h2 class="page-label">Contact Us</h2>
+        <h2 class="page-label">Sign up Form</h2>
 
-        <section class="contact-form">
-            <form method="POST" action="/contact_action">
+        <section class="signup-form">
+            <form method="POST" action="/signup_action">
                 <div class="fields">
                     <p>
                         <label>Name: </label>
@@ -39,17 +40,20 @@
                     </p>
     
                     <p>
-                        <label>Email: </label>
-                        <input type="email" id="email" name="email" placeholder="example@email.com" aria-label="email entry box" autocomplete="off" required>
+                        <label>Password: </label>
+                        <input type="password" id="password" name="password" placeholder="Password" aria-label="password entry box" autocomplete="off" required>
                     </p>
                     
                     <p>
-                        <label>Message: </label>
-                        <textarea id="message" name="message" rows="6" cols="50" placeholder="Enter your message"
-                        aria-label="email-message entry box"autocomplete="off" required></textarea>
+                        <label for="type">Type: </label>
+                        <select name="type">
+                            <option value="reader">Reader</option>
+                            <option value="author">Author</option>
+                            <option value="publisher">Publisher</option>
+                        </select>
                     </p>
     
-                    <button class="submit-button" type="submit">Send message</button>
+                    <button type="submit">Sign up</button>
                 </div>
             </form>
         </section>
