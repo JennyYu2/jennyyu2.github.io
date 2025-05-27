@@ -1,0 +1,104 @@
+/* PROJECTS SECTION */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    margin-left:40px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+
+/* HEADING STYLE */
+h2 {
+    color: #006aab;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+}
+
+
+/* STYLE FOR EACH BLOCK */
+.block {
+    max-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.6); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.4s ease;
+}
+
+.block:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
+.block.expanded {
+  max-height: 800px;
+}
+
+.block a:hover {
+    color:#168bd3;
+}
+
+.block.expanded .arrow {
+  transform: rotate(180deg);
+}
+
+
+/* BLOCK LINKS */
+.block a {
+    color:#006aab;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* BANNER IMAGE */
+.banner {
+    max-width: 370px;
+    width: 370px;           
+    height: auto;
+    display: block;    
+    margin: 15px auto;
+}
+
+
+/* TOGGLE BUTTON */
+.toggle {
+    position: absolute;
+    background-color: rgb(232, 230, 230);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    opacity: 50%;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.toggle:hover {
+    background-color: rgb(192, 189, 189);
+}
+
+.content {
+    font-size: 20px;
+    color: #006aab;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    margin-right:15px;
+}

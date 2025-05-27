@@ -40,6 +40,10 @@
   margin-top: 20px;
 }
 
+.contact-links a:hover {
+    color:firebrick;
+}
+
 .contact {
     color: maroon;
     text-decoration: none;

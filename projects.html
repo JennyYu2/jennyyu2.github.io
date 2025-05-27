@@ -3,37 +3,81 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jenny Yu</title>
+        <title>Projects</title>
 
         <link rel="stylesheet" href="./css/general.css"> <!-- general style -->
-        <script src="./js/index.js" defer></script> <!-- javascript -->
+        <link rel="stylesheet" href="./css/projects.css"> 
+        <script src="./js/projects.js" defer></script> <!-- javascript -->
 
+        <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet"> <!-- font -->
     </head>
 
     <body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="navname"><a class="navname" href="index.html">Jenny Yu</a></div>
+
+                <ul class="navul">
+                    <li class="navli"><a href="index.html">Home</a></li>
+                    <li class="navli" id="leftmost"><a href="https://github.com/JennyYu2/Projects">Resumé</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <h2>My Projects</h2>
+
         <section class="projects">
-            <h2>My Projects</h2>
-            <ul class="project-list">
-                <li>
-                    <a href="https://jennyyu2.github.io/TetrisForLife" target="_blank">Tetris for Life</a>
-                    <p>A retro themed interactive website about Tetris! Learn about the history of the game and the legends that play it. Take the block quiz and sign the guestbook before you go!</p>
-                </li>
-                <li>
-                    <a href="https://magiclibrary.onrender.com" target="_blank">Magical Library</a>
-                    <p>A place of magic and wonder that is served from Node.js and utilizes JSON files for data persistence. Sign in as a Reader, Author or Publisher to access the different functionalities!</p>
-                    <p>Logins:
-                        <ul>
-                            <li>Username: jenny, Password: 123, Type: Author</li>
-                            <li>Username: josh, Password: bean, Type: Reader</li>
-                            <li>Username: posa, Password: bosa, Type: Publisher</li>
-                        </ul>
-                    </p>
-                </li>
-                <li>
-                    <a href="https://yourusername.github.io/project3" target="_blank">Cat Café</a>
-                    <p>A cute and simple website for a cat café! </p>
-                </li>
-            </ul>
+            <!-- Tetris for life -->
+            <div class="block" id="one">
+                <a href="https://jennyyu2.github.io/TetrisForLife" target="_blank">Tetris for Life</a>
+                <img class="banner" src="./images/tetris.png" alt="Tetris for Life banner">
+                    
+                <div class="content">
+                    <p>A retro-themed interactive website about Tetris! Learn about the history of the game and the legends that play it. Take the block quiz and sign the guestbook before you go!</p>
+                </div>
+                    
+                <button class="toggle" onclick="expand(this)">▼</button>
+            </div>
+
+            <!-- Magic library -->
+            <div class="block" id="two">
+                <a href="https://magiclibrary.onrender.com" target="_blank">Magical Library</a>
+                <img class="banner" src="./images/library.jpg" alt="Magic library banner">
+
+                <div class="content">
+                    <p>A place of magic and wonder that is served from Node.js and utilizes JSON files for data persistence. Sign in as a Reader, Author or Publisher to access the different functionalities! </p>
+                </div>
+                    
+                <button class="toggle" onclick="expand(this)">▼</button>
+            </div>
+
+            <!-- Cat café -->
+            <div class="block" id="three">
+                <a href="" target="_blank">Cat Café</a>
+                <img class="banner" src="./images/cat-cafe.jpg" alt="Cat Café banner">
+                    
+                <div class="content">
+                    <p>A cute and simple website for a cat café. Relax, hang out with kitties and forget all your worries! See the cats available for adoption and stop by today!</p>
+                </div>
+
+                <button class="toggle" onclick="expand(this)">▼</button>
+            </div>
+
+            <!-- Github repo -->
+            <div class="block" id="four">
+                <a href="" target="_blank">Other projects</a>
+
+                <div class="content">
+                    <p>Link to my GitHub for source code and other projects!</p>
+                </div>
+
+                <button class="toggle" onclick="expand(this)">▼</button>
+            </div>
+
+            <div class="block" id="five">
+                <a href="" target="_blank">Coming soon</a>
+                <p> Comming soon! </p>
+            </div>
         </section>
 
         <footer>
