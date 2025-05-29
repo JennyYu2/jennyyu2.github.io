@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
 }
-body.dark {
+html.dark body {
     background-color: #2c2b4b;
     color: #ffe9f4;
 }
@@ -34,7 +34,7 @@ body.dark {
     color: maroon;
     font-weight: 600;
 }
-.navname.dark {
+html.dark .navname {
     color: #ffe9f4;
 }
 
@@ -60,7 +60,7 @@ body.dark {
     display: inline-block;
     transition: color 0.3s ease;
 }
-.navli a.dark {
+html.dark .navli a {
     color: #ffe9f4;
 }
 
@@ -72,7 +72,7 @@ body.dark {
     color:rgb(195, 49, 49);
     transform: scale(1.05);
 }
-.navbar a.dark:hover {
+html.dark .navbar a:hover {
     color: #f9bddb;
     transform: scale(1.05);
 }
@@ -86,7 +86,7 @@ body.dark {
     margin: 0;
     transition: color 0.3s ease;
 }
-#theme.dark{
+html.dark #theme{
     color:#ffe9f4;
 }
 
@@ -94,7 +94,7 @@ body.dark {
     color:rgb(195, 49, 49);
     transform: scale(1.05);
 }
-#theme.dark:hover {
+html.dark #theme:hover {
     color: #f9bddb;
 }
 
@@ -109,7 +109,7 @@ footer {
     text-align: left;
     margin-top: 10px;
 }
-footer.dark {
+html.dark footer {
     background-color: lightslategray;
     color:azure;
 }
@@ -118,7 +118,7 @@ footer a {
     color:rgb(186, 13, 137);
     text-decoration: none;
 }
-footer a.dark {
+html.dark footer a {
     color:rgb(10, 195, 232);
 }
 

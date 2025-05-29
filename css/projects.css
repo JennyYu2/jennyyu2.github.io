@@ -18,7 +18,7 @@ h2 {
     margin-top: 25px;
     padding-top: 15px;
 }
-h2.dark {
+html.dark h2 {
     color:#d1974f;
 }
 
@@ -40,7 +40,7 @@ h2.dark {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     transition: max-height 0.4s ease;
 }
-.block.dark {
+html.dark .block {
     background: #383a67;
 }
 
@@ -56,7 +56,7 @@ h2.dark {
 .block a:hover {
     color:#5fbdf8;
 }
-.block a.dark:hover {
+html.dark .block a:hover {
     color:antiquewhite;
 }
 
@@ -71,7 +71,7 @@ h2.dark {
     font-size: 25px;
     margin-bottom: 10px;
 }
-.block a.dark {
+html.dark .block a {
     color:#d1974f;
 }
 
@@ -114,6 +114,6 @@ h2.dark {
     margin-left: 15px;
     margin-right:15px;
 }
-.content.dark {
+html.dark .content {
     color:#d1974f;
 }
