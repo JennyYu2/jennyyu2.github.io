@@ -19,7 +19,7 @@ h2 {
     padding-top: 15px;
 }
 h2.dark {
-    color:gold;
+    color:#d1974f;
 }
 
 
@@ -41,7 +41,7 @@ h2.dark {
     transition: max-height 0.4s ease;
 }
 .block.dark {
-    background: maroon;
+    background: #383a67;
 }
 
 .block:hover {
@@ -54,7 +54,7 @@ h2.dark {
 }
 
 .block a:hover {
-    color:#168bd3;
+    color:#5fbdf8;
 }
 .block a.dark:hover {
     color:antiquewhite;
@@ -72,7 +72,7 @@ h2.dark {
     margin-bottom: 10px;
 }
 .block a.dark {
-    color:blueviolet;
+    color:#d1974f;
 }
 
 /* BANNER IMAGE */
@@ -115,5 +115,5 @@ h2.dark {
     margin-right:15px;
 }
 .content.dark {
-    color:bisque;
+    color:#d1974f;
 }

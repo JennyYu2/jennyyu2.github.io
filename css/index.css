@@ -18,8 +18,9 @@
     color: #006aab;
 }
 #bio.dark {
-    background: rgb(114, 4, 4);
-    color:gold;
+    background: #383a67;
+    color:#d1974f;
+    /*box-shadow: 0 8px 20px #7a637a;*/
 }
 
 #about {
@@ -39,7 +40,8 @@
 }
 
 .contact-links a:hover {
-    color:firebrick;
+    color:rgb(195, 49, 49);
+    transform: scale(1.05);
 }
 .contact-links a.dark:hover {
     color: #f9bddb;
