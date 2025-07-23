@@ -26,73 +26,78 @@
         </script>
     </head>
 
+<!-- TODO: make it scaleable -- scale the links at the top -->
+
     <body onload="getTheme()">
-        <nav class="navbar">
-            <div class="navdiv">
-                <div class="navname"><a class="navname" href="index.html">Jenny Yu</a></div>
+        <div class="container">
 
-                <ul class="navul">
-                    <li class="navli"><a href="index.html">Home</a></li>
-                    <li class="navli"><a href="JennyYu_Resume.pdf" target="_blank">Resumé</a></li>
-                    <li class="navli" id="leftmost"><button id="theme" onclick="changeTheme()"><i class="fa-solid fa-moon"></i></button></li>
-                </ul>
-            </div>
-        </nav>
-        
-        <h2>My Projects</h2>
+            <nav class="navbar">
+                <div class="navdiv">
+                    <div class="navname"><a class="navname" href="index.html">Jenny Yu</a></div>
 
-        <section class="projects">
-            <!-- Tetris for life -->
-            <div class="block" id="one">
-                <a href="https://jennyyu2.github.io/TetrisForLife" target="_blank">Tetris for Life</a>
-                <img class="banner" src="./images/tetris.png" alt="Tetris for Life banner">
-                    
-                <div class="content">
-                    <p>A retro-themed interactive website about Tetris! Learn all about Tetris, the history of the game and the legends that play it. Don't forget to take the block quiz and sign the guestbook before you go!</p>
+                    <ul class="navul">
+                        <li class="navli"><a href="index.html">Home</a></li>
+                        <li class="navli"><a href="JennyYu_Resume.pdf" target="_blank">Resumé</a></li>
+                        <li class="navli" id="leftmost"><button id="theme" onclick="changeTheme()"><i class="fa-solid fa-moon"></i></button></li>
+                    </ul>
                 </div>
-                    
-                <button class="toggle" onclick="expand(this)">▼</button>
-            </div>
+            </nav>
+            
+            <h2>My Projects</h2>
 
-            <!-- Magic library -->
-            <div class="block" id="two">
-                <a href="https://magiclibrary.onrender.com" target="_blank">Magical Library</a>
-                <img class="banner" src="./images/library.jpg" alt="Magic library banner">
-
-                <div class="content">
-                    <p>A place of magic and wonder that is served from Node.js and utilizes JSON files for data persistence. Sign in as a Reader, Author or Publisher to access the different functionalities!
-                    <br><em>Please note: may take a moment to load initially</em></p>
-                </div>
-                    
-                <button class="toggle" onclick="expand(this)">▼</button>
-            </div>
-
-            <!-- Pattern tracker -->
-            <div class="block" id="three">
-                <a href="" target="_blank">Pattern Tracker</a>
-                <img class="banner" src="./images/construction.webp" alt=" Under Construction">
-                    
-                <div class="content">
-                    <p><strong>Work in progress</strong></p>
-                    <p>An app to keep track of crochet patterns using react.</p>
+            <section class="projects">
+                <!-- Tetris for life -->
+                <div class="block" id="one">
+                    <a href="https://jennyyu2.github.io/TetrisForLife" target="_blank">Tetris for Life</a>
+                    <img class="banner" src="./images/tetris.png" alt="Tetris for Life banner">
+                        
+                    <div class="content">
+                        <p>A retro-themed interactive website about Tetris! Learn all about Tetris, the history of the game and the legends that play it. Don't forget to take the block quiz and sign the guestbook before you go!</p>
+                    </div>
+                        
+                    <button class="toggle" onclick="expand(this)">▼</button>
                 </div>
 
-                <button class="toggle" onclick="expand(this)">▼</button>
-            </div>
+                <!-- Magic library -->
+                <div class="block" id="two">
+                    <a href="https://magiclibrary.onrender.com" target="_blank">Magical Library</a>
+                    <img class="banner" src="./images/library.jpg" alt="Magic library banner">
 
-            <!-- Github repo -->
-            <div class="block" id="four">
-                <a href="" target="_blank">Other projects</a>
-                <img class="banner" src="./images/github.jpg" alt="Other projects github banner">
-
-                <div class="content">
-                    <p>Check out my GitHub for source code and other projects, including an SQL arcade simulator, a Java Sudoku game and a C-to-MIPS compiler!</p>
+                    <div class="content">
+                        <p>A place of magic and wonder that is served from Node.js and utilizes JSON files for data persistence. Sign in as a Reader, Author or Publisher to access the different functionalities!
+                        <br><em>Please note: may take a moment to load initially</em></p>
+                    </div>
+                        
+                    <button class="toggle" onclick="expand(this)">▼</button>
                 </div>
 
-                <button class="toggle" onclick="expand(this)">▼</button>
-            </div>
+                <!-- Pattern tracker -->
+                <div class="block" id="three">
+                    <a href="" target="_blank">Pattern Tracker</a>
+                    <img class="banner" src="./images/construction.webp" alt=" Under Construction">
+                        
+                    <div class="content">
+                        <p><strong>Work in progress</strong></p>
+                        <p>An app to keep track of crochet patterns using react.</p>
+                    </div>
 
-        </section>
+                    <button class="toggle" onclick="expand(this)">▼</button>
+                </div>
+
+                <!-- Github repo -->
+                <div class="block" id="four">
+                    <a href="" target="_blank">Other projects</a>
+                    <img class="banner" src="./images/github.jpg" alt="Other projects github banner">
+
+                    <div class="content">
+                        <p>Check out my GitHub for source code and other projects, including an SQL arcade simulator, a Java Sudoku game and a C-to-MIPS compiler!</p>
+                    </div>
+
+                    <button class="toggle" onclick="expand(this)">▼</button>
+                </div>
+            </section>
+            
+        </div>
 
         <footer>
             <p>This website was coded by Jenny Yu. See the Github repo <a href="https://github.com/JennyYu2/jennyyu2.github.io" target="_blank">here</a>.</p>
