@@ -1,6 +1,5 @@
 # Hi, I’m Jenny!
-**Full-Stack Developer** | Exploring compilers, web apps, and game dev.  
-Welcome to my portfolio repository — here I showcase my projects and skills. 
+I’m a passionate developer with a focus on web development and building responsive, interactive websites. Skilled in JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS.
 
 ---
 
