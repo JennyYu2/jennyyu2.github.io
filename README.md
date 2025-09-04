@@ -1,7 +1,6 @@
 # Hi, I’m Jenny! 
-Welcome to my portfolio!
-I’m a passionate developer with a focus on web development and building responsive, interactive websites. 
-Skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS.**
+Welcome to my portfolio — a collection of projects that showcase my skills and interests.  
+I’m a passionate developer focused on **web development** and building **responsive, interactive websites**, skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
 
 ---
 
@@ -16,8 +15,6 @@ Skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS.**
 ### Magic Library
 A web application where users log in as Reader, Author, or Publisher to explore library-inspired features.  
 **Tech:** HTML, CSS, JavaScript
-
---- 
 
 ### Tetris for Life 
 A web application where users can learn about the history and gameplay of Tetris.  
