@@ -1,6 +1,7 @@
 # Hi, I’m Jenny! 
 Welcome to my portfolio — a collection of projects that showcase my skills and interests.  
-I’m a passionate developer focused on **web development** and building **responsive, interactive websites**, skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
+I’m a passionate developer focused on **web development** and building **responsive, interactive websites**.
+I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
 
 ---
 
