@@ -1,12 +1,11 @@
 # Hi, I’m Jenny (˶ᵔ ᵕ ᵔ˶)
 Welcome to my portfolio! This is a collection of projects that showcase my skills and interests.  
-<br>
-I’m a passionate full-stack developer who specializes in **web development** and building **responsive, interactive websites**.
-I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
 
 ---
 
 ## About Me ᨐฅ
+I’m a passionate full-stack developer who specializes in **web development** and building **responsive, interactive websites**.
+I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
 - **Currently learning:** React, Node.js, Ruby  
 - **Interests:** Web development, App development, Game development, AI, Data visualization  
 - **View this Portfolio:** [jennyyu2.github.io](https://jennyyu2.github.io)
