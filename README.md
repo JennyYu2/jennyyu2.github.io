@@ -22,7 +22,7 @@ A web application where users can learn about the history and gameplay of Tetris
 **Tech:** HTML, CSS, JavaScript
 
 ### Other Projects
-GitHub repository with my other projects including a GO Websraper, Java Sudoku game with UI, C Compliler, SQL Database simulator and more!
+GitHub repository with my other projects including a GO Websraper, Java Sudoku game with UI, C Compliler, SQL Database simulator and more!<br>
 [Jenny's Projects](https://github.com/JennyYu2/projects)
 
 ---
