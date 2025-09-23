@@ -1,5 +1,5 @@
 # Hi, I’m Jenny (˶ᵔ ᵕ ᵔ˶)
-𐙚 Welcome to my portfolio! This is a collection of projects that showcase my skills and interests.  
+Welcome to my portfolio! This is a collection of projects that showcase my skills and interests.  
 <br>
 I’m a passionate full-stack developer who specializes in **web development** and building **responsive, interactive websites**.
 I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
@@ -35,7 +35,7 @@ GitHub repository with my other projects including a GO Websraper, Java Sudoku g
 
 ---
 
-## Contact me >^•-•^<
+## 𐙚 Contact me >^•-•^<
 - Email: youjenne@gmail.com
 - GitHub: [JennyYu2](https://github.com/JennyYu2)  
 - LinkedIn: [Jenny Yu](https://www.linkedin.com/in/jenny-yu-174081191/)
