@@ -1,4 +1,4 @@
-# Hi, I’m Jenny! 
+# Hi, I’m Jenny! (˶ᵔ ᵕ ᵔ˶)
 Welcome to my portfolio — a collection of projects that showcase my skills and interests.  
 I’m a passionate developer focused on **web development** and building **responsive, interactive websites**.
 I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
@@ -33,5 +33,4 @@ A web application where users can learn about the history and gameplay of Tetris
 ## Contact me
 - Email: youjenne@gmail.com
 - GitHub: [JennyYu2](https://github.com/JennyYu2)  
-- Portfolio: [jennyyu2.github.io](https://jennyyu2.github.io)  
 - LinkedIn: [Jenny Yu](https://www.linkedin.com/in/jenny-yu-174081191/)
