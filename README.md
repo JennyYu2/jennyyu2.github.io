@@ -1,14 +1,15 @@
-# Hi, I’m Jenny! (˶ᵔ ᵕ ᵔ˶)
-Welcome to my portfolio — a collection of projects that showcase my skills and interests.  
-I’m a passionate developer focused on **web development** and building **responsive, interactive websites**.
+# Hi, I’m Jenny (˶ᵔ ᵕ ᵔ˶)
+Welcome to my portfolio! This is a collection of projects that showcase my skills and interests.  
+<br>
+I’m a passionate full-stack developer who specializes in **web development** and building **responsive, interactive websites**.
 I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
 
 ---
 
 ## About Me
 - Currently learning: React, Node.js  
-- Interests: Web development, App development, Game development, AI, and data visualization  
-- Portfolio: [jennyyu2.github.io](https://jennyyu2.github.io)
+- Interests: Web development, App development, Game development, AI, Data visualization  
+- View this Portfolio: [jennyyu2.github.io](https://jennyyu2.github.io)
 
 ---
 
@@ -20,6 +21,10 @@ A web application where users log in as Reader, Author, or Publisher to explore 
 ### Tetris for Life 
 A web application where users can learn about the history and gameplay of Tetris.  
 **Tech:** HTML, CSS, JavaScript
+
+### Other Projects
+GitHub repository with my other projects including a GO Websraper, Java Sudoku game with UI, C Compliler, SQL Database simulator and more!
+[Jenny's Projects](https://github.com/JennyYu2/projects)
 
 ---
 
