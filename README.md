@@ -3,7 +3,7 @@ Welcome to my portfolio! This is a collection of projects that showcase my skill
 
 ---
 
-## About Me ᨐฅ
+## About Me ^•ﻌ•^ฅ
 I’m a passionate full-stack developer who specializes in **web development** and building **responsive, interactive websites**.
 I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.  
 - **Currently learning:** React, Node.js, Ruby  
