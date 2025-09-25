@@ -13,16 +13,16 @@ I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.
 ---
 
 ## ⋆.˚ Featured Projects ⋆˚࿔
-### Magic Library
+### ✧ Magic Library
 A web application where users log in as Reader, Author, or Publisher to explore library-inspired features.  
 **Tech:** HTML, CSS, JavaScript
 
-### Tetris for Life 
+### ✧ Tetris for Life 
 A web application where users can learn about the history and gameplay of Tetris.  
 **Tech:** HTML, CSS, JavaScript
 
-### Other Projects
-GitHub repository with my other projects including a GO Websraper, Java Sudoku game with UI, C Compliler, SQL Database simulator and more!<br>
+### ✧ Other Projects
+A collection of other projects including a Go web scraper, a Java Sudoku game with UI, a C compiler, an SQL database simulator, and more! <br>
 [Jenny's Projects](https://github.com/JennyYu2/projects)
 
 ---
