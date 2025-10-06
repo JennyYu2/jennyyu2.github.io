@@ -13,7 +13,7 @@ I'm skilled in **JavaScript, Node.js, Python, Java, C, SQL, HTML, and CSS**.
 
 ---
 
-## ⋆.˚ Projects ⋆˚࿔
+## ⋆.˚ Featured Projects ⋆˚࿔
 
 ### Magic Library
 A web application where users log in as Reader, Author, or Publisher to explore library-inspired features.  
