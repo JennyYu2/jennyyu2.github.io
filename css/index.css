@@ -60,3 +60,17 @@ html.dark .contact-links a:hover {
 html.dark .contact {
     color:#ffe9f4;
 }
+
+/* CAT ON THE FOOTER */
+.cat {
+    position: absolute;
+    bottom: 85%;   /* cat sits on top of the footer */
+    left: 50px;
+    pointer-events: none;
+    /*border: 2px solid black;*/
+    transition: 2.5s ease-in-out;
+}
+
+#cat-img {
+    width: 90px;
+}
