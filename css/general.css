@@ -12,7 +12,7 @@ html.dark body {
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 92vh;
     display: flex;
     flex-direction: column;
 }
@@ -111,6 +111,7 @@ html.dark #theme:hover {
 
 /* FOOTER STYLING */
 footer {
+    position:relative;
     background-color:rgb(234, 190, 79);
     color:rgb(97, 97, 97);
     padding-left: 25px;
@@ -136,5 +137,3 @@ html.dark footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
-
