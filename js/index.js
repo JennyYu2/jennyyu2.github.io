@@ -48,3 +48,26 @@ function changeTheme() {
         setDark()
     }
 }
+
+
+const images = ['cat-sit-black-R.png', 'cat-stand-black-R.png', 'cat-stand-orange-R.png', 'cat-stand-white-R.png'];
+
+function animateWalk() {
+    
+}
+
+function stopWalk() {
+
+}
+
+function moveCat(e) {
+    var cat = document.getElementById("cat-pic");
+
+    var targetX = e.clientX;
+
+    animateWalk();
+
+    cat.style.left = `${targetX}px`;
+}
+
+document.addEventListener("click", moveCat);
